@@ -1,0 +1,128 @@
+{
+    "data": [
+        {
+            "attributes": {
+                "isCurrentSeason": false,
+                "isOffseason": false
+            },
+            "id": "division.bro.official.2017-beta",
+            "type": "season"
+        },
+        {
+            "attributes": {
+                "isCurrentSeason": false,
+                "isOffseason": false
+            },
+            "id": "division.bro.official.2017-pre1",
+            "type": "season"
+        },
+        {
+            "attributes": {
+                "isCurrentSeason": false,
+                "isOffseason": false
+            },
+            "id": "division.bro.official.2017-pre2",
+            "type": "season"
+        },
+        {
+            "attributes": {
+                "isCurrentSeason": false,
+                "isOffseason": false
+            },
+            "id": "division.bro.official.2017-pre3",
+            "type": "season"
+        },
+        {
+            "attributes": {
+                "isCurrentSeason": false,
+                "isOffseason": false
+            },
+            "id": "division.bro.official.2017-pre4",
+            "type": "season"
+        },
+        {
+            "attributes": {
+                "isCurrentSeason": false,
+                "isOffseason": false
+            },
+            "id": "division.bro.official.2017-pre5",
+            "type": "season"
+        },
+        {
+            "attributes": {
+                "isCurrentSeason": false,
+                "isOffseason": false
+            },
+            "id": "division.bro.official.2017-pre6",
+            "type": "season"
+        },
+        {
+            "attributes": {
+                "isCurrentSeason": false,
+                "isOffseason": false
+            },
+            "id": "division.bro.official.2017-pre7",
+            "type": "season"
+        },
+        {
+            "attributes": {
+                "isCurrentSeason": false,
+                "isOffseason": false
+            },
+            "id": "division.bro.official.2017-pre8",
+            "type": "season"
+        },
+        {
+            "attributes": {
+                "isCurrentSeason": false,
+                "isOffseason": false
+            },
+            "id": "division.bro.official.2017-pre9",
+            "type": "season"
+        },
+        {
+            "attributes": {
+                "isCurrentSeason": false,
+                "isOffseason": false
+            },
+            "id": "division.bro.official.2018-01",
+            "type": "season"
+        },
+        {
+            "attributes": {
+                "isCurrentSeason": false,
+                "isOffseason": false
+            },
+            "id": "division.bro.official.2018-02",
+            "type": "season"
+        },
+        {
+            "attributes": {
+                "isCurrentSeason": false,
+                "isOffseason": false
+            },
+            "id": "division.bro.official.2018-03",
+            "type": "season"
+        },
+        {
+            "attributes": {
+                "isCurrentSeason": false,
+                "isOffseason": false
+            },
+            "id": "division.bro.official.2018-04",
+            "type": "season"
+        },
+        {
+            "attributes": {
+                "isCurrentSeason": true,
+                "isOffseason": false
+            },
+            "id": "division.bro.official.2018-05",
+            "type": "season"
+        }
+    ],
+    "links": {
+        "self": "https:\/\/api.playbattlegrounds.com\/shards\/pc-na\/seasons"
+    },
+    "meta": {}
+}

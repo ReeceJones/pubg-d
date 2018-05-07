@@ -3,6 +3,7 @@ module pubg.player;
 import pubg.request;
 import std.json;
 import std.file: write;
+import std.stdio: writeln;
 
 class PlayerAttributes
 {
@@ -83,6 +84,137 @@ public:
     {
         return this.json["data"].array[0]["id"].str;
     }
+    GameModeStats getGameModeStats(string gamemode)
+    {
+        return new GameModeStats(this.json["data"]["attributes"]["gameModeStats"][gamemode]);
+    }
+private:
+    JSONValue json;
+}
+
+class GameModeStats
+{
+public:
+    this(JSONValue json)
+    {
+        this.json = json;
+    }
+    int getDBNOs()
+    {
+        return cast(int)this.json["DBNOs"].integer;
+    }
+    int getAssists()
+    {
+        return cast(int)this.json["assists"].integer;
+    }
+    int getBoosts()
+    {
+        return cast(int)this.json["boosts"].integer;
+    }
+    int getDamageDealt()
+    {
+        return cast(int)this.json["damageDealt"].integer;
+    }
+    string getDeathType()
+    {
+        return this.json["deathType"].str;
+    }
+    int getHeadshotKills()
+    {
+        return cast(int)this.json["headShotKills"].integer;
+    }
+    int getHeals()
+    {
+        return cast(int)this.json["heals"].integer;
+    }
+    int getKillPlace()
+    {
+        return cast(int)this.json["killPlace"].integer;
+    }
+    int getKillPoints()
+    {
+        return cast(int)this.json["killPoints"].integer;
+    }
+    float getKillPointsDelta()
+    {
+        return cast(float)this.json["killPointsDelta"].floating;
+    }
+    int getKillStreaks()
+    {
+        return cast(int)this.json["killPoints"].integer;
+    }
+    int getKills()
+    {
+        return cast(int)this.json["kills"].integer;
+    }
+    int getLastKillPoints()
+    {
+        return cast(int)this.json["lastKillPoints"].integer;
+    }
+    int getLastWinPoints()
+    {
+        return cast(int)this.json["lastWinPoints"].integer;
+    }
+    int getLongestKill()
+    {
+        return cast(int)this.json["longestKill"].integer;
+    }
+    int getMostDamage()
+    {
+        return cast(int)this.json["longestKill"].integer;
+    }
+    string getName()
+    {
+        return this.json["name"].str;
+    }
+    string getPlayerId()
+    {
+        return this.json["playerId"].str;
+    }
+    int getRevives()
+    {
+        return cast(int)this.json["revives"].integer;
+    }
+    int getRideDistance()
+    {
+        return cast(int)this.json["rideDistance"].integer;
+    }
+    int getRoadKills()
+    {
+        return cast(int)this.json["roadKills"].integer;
+    }
+    int getTeamKills()
+    {
+        return cast(int)this.json["teamKills"].integer;
+    }
+    int getTimeSurvived()
+    {
+        return cast(int)this.json["timeSurvived"].integer;
+    }
+    int getVehicleDestroys()
+    {
+        return cast(int)this.json["vehicleDestroys"].integer;
+    }
+    float getWalkDistance()
+    {
+        return cast(float)this.json["walkDistance"].floating;
+    }
+    int getWeaponsAcquired()
+    {
+        return cast(int)this.json["weaponsAcquired"].integer;
+    }
+    int getWinPlace()
+    {
+        return cast(int)this.json["winPlace"].integer;
+    }
+    int getWinPoints()
+    {
+        return cast(int)this.json["winPoints"].integer;
+    }
+    float getWinPointsDelta()
+    {
+        return cast(float)this.json["winPointsDelta"].floating;
+    }
 private:
     JSONValue json;
 }
@@ -100,5 +232,13 @@ class PlayerRequest : ObjectRequest
     Player getPlayerFromId(string id)
     {
         return new Player(this.request("players?filter[playerIds]=" ~ id));
+    }
+    Player getExtendedPlayer(string id, string season)
+    {
+        auto content = this.request("players/" ~ id ~ "/seasons/" ~ season);
+        //auto seasons = this.request("seasons");
+        //writeln(cast(string)seasons);
+        //write("ext.json", parseJSON(cast(string)content).toPrettyString());
+        return new Player(content);
     }
 }

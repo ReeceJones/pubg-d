@@ -1,0 +1,258 @@
+{
+    "data": {
+        "attributes": {
+            "gameModeStats": {
+                "duo": {
+                    "assists": 0,
+                    "boosts": 0,
+                    "dBNOs": 0,
+                    "dailyKills": 0,
+                    "damageDealt": 0,
+                    "days": 0,
+                    "headshotKills": 0,
+                    "heals": 0,
+                    "killPoints": 0,
+                    "kills": 0,
+                    "longestKill": 0,
+                    "longestTimeSurvived": 0,
+                    "losses": 0,
+                    "maxKillStreaks": 0,
+                    "mostSurvivalTime": 0,
+                    "revives": 0,
+                    "rideDistance": 0,
+                    "roadKills": 0,
+                    "roundMostKills": 0,
+                    "roundsPlayed": 0,
+                    "suicides": 0,
+                    "teamKills": 0,
+                    "timeSurvived": 0,
+                    "top10s": 0,
+                    "vehicleDestroys": 0,
+                    "walkDistance": 0,
+                    "weaponsAcquired": 0,
+                    "weeklyKills": 0,
+                    "winPoints": 0,
+                    "wins": 0
+                },
+                "duo-fpp": {
+                    "assists": 0,
+                    "boosts": 0,
+                    "dBNOs": 0,
+                    "dailyKills": 0,
+                    "damageDealt": 0,
+                    "days": 0,
+                    "headshotKills": 0,
+                    "heals": 0,
+                    "killPoints": 0,
+                    "kills": 0,
+                    "longestKill": 0,
+                    "longestTimeSurvived": 0,
+                    "losses": 0,
+                    "maxKillStreaks": 0,
+                    "mostSurvivalTime": 0,
+                    "revives": 0,
+                    "rideDistance": 0,
+                    "roadKills": 0,
+                    "roundMostKills": 0,
+                    "roundsPlayed": 0,
+                    "suicides": 0,
+                    "teamKills": 0,
+                    "timeSurvived": 0,
+                    "top10s": 0,
+                    "vehicleDestroys": 0,
+                    "walkDistance": 0,
+                    "weaponsAcquired": 0,
+                    "weeklyKills": 0,
+                    "winPoints": 0,
+                    "wins": 0
+                },
+                "solo": {
+                    "assists": 0,
+                    "boosts": 0,
+                    "dBNOs": 0,
+                    "dailyKills": 0,
+                    "damageDealt": 0,
+                    "days": 0,
+                    "headshotKills": 0,
+                    "heals": 0,
+                    "killPoints": 0,
+                    "kills": 0,
+                    "longestKill": 0,
+                    "longestTimeSurvived": 0,
+                    "losses": 0,
+                    "maxKillStreaks": 0,
+                    "mostSurvivalTime": 0,
+                    "revives": 0,
+                    "rideDistance": 0,
+                    "roadKills": 0,
+                    "roundMostKills": 0,
+                    "roundsPlayed": 0,
+                    "suicides": 0,
+                    "teamKills": 0,
+                    "timeSurvived": 0,
+                    "top10s": 0,
+                    "vehicleDestroys": 0,
+                    "walkDistance": 0,
+                    "weaponsAcquired": 0,
+                    "weeklyKills": 0,
+                    "winPoints": 0,
+                    "wins": 0
+                },
+                "solo-fpp": {
+                    "assists": 0,
+                    "boosts": 0,
+                    "dBNOs": 0,
+                    "dailyKills": 0,
+                    "damageDealt": 0,
+                    "days": 0,
+                    "headshotKills": 0,
+                    "heals": 0,
+                    "killPoints": 0,
+                    "kills": 0,
+                    "longestKill": 0,
+                    "longestTimeSurvived": 0,
+                    "losses": 0,
+                    "maxKillStreaks": 0,
+                    "mostSurvivalTime": 0,
+                    "revives": 0,
+                    "rideDistance": 0,
+                    "roadKills": 0,
+                    "roundMostKills": 0,
+                    "roundsPlayed": 0,
+                    "suicides": 0,
+                    "teamKills": 0,
+                    "timeSurvived": 0,
+                    "top10s": 0,
+                    "vehicleDestroys": 0,
+                    "walkDistance": 0,
+                    "weaponsAcquired": 0,
+                    "weeklyKills": 0,
+                    "winPoints": 0,
+                    "wins": 0
+                },
+                "squad": {
+                    "assists": 0,
+                    "boosts": 0,
+                    "dBNOs": 0,
+                    "dailyKills": 0,
+                    "damageDealt": 0,
+                    "days": 0,
+                    "headshotKills": 0,
+                    "heals": 0,
+                    "killPoints": 0,
+                    "kills": 0,
+                    "longestKill": 0,
+                    "longestTimeSurvived": 0,
+                    "losses": 0,
+                    "maxKillStreaks": 0,
+                    "mostSurvivalTime": 0,
+                    "revives": 0,
+                    "rideDistance": 0,
+                    "roadKills": 0,
+                    "roundMostKills": 0,
+                    "roundsPlayed": 0,
+                    "suicides": 0,
+                    "teamKills": 0,
+                    "timeSurvived": 0,
+                    "top10s": 0,
+                    "vehicleDestroys": 0,
+                    "walkDistance": 0,
+                    "weaponsAcquired": 0,
+                    "weeklyKills": 0,
+                    "winPoints": 0,
+                    "wins": 0
+                },
+                "squad-fpp": {
+                    "assists": 2,
+                    "boosts": 2,
+                    "dBNOs": 2,
+                    "dailyKills": 2,
+                    "damageDealt": 531.356400000000008,
+                    "days": 2,
+                    "headshotKills": 0,
+                    "heals": 7,
+                    "killPoints": 1008.85419999999999,
+                    "kills": 2,
+                    "longestKill": 58.3407819999999973,
+                    "longestTimeSurvived": 1627.81400000000008,
+                    "losses": 5,
+                    "maxKillStreaks": 2,
+                    "mostSurvivalTime": 1627.81400000000008,
+                    "revives": 1,
+                    "rideDistance": 9860.89300000000003,
+                    "roadKills": 0,
+                    "roundMostKills": 2,
+                    "roundsPlayed": 5,
+                    "suicides": 0,
+                    "teamKills": 0,
+                    "timeSurvived": 4455.09569999999985,
+                    "top10s": 2,
+                    "vehicleDestroys": 0,
+                    "walkDistance": 6537.75699999999961,
+                    "weaponsAcquired": 16,
+                    "weeklyKills": 2,
+                    "winPoints": 1513.87490000000003,
+                    "wins": 0
+                }
+            }
+        },
+        "relationships": {
+            "matchesDuo": {
+                "data": []
+            },
+            "matchesDuoFPP": {
+                "data": []
+            },
+            "matchesSolo": {
+                "data": []
+            },
+            "matchesSoloFPP": {
+                "data": []
+            },
+            "matchesSquad": {
+                "data": []
+            },
+            "matchesSquadFPP": {
+                "data": [
+                    {
+                        "id": "8ea7b226-9627-45d4-bf58-2d11e7831c8d",
+                        "type": "match"
+                    },
+                    {
+                        "id": "1c51dfa1-de66-4220-a8e6-12de0f68a9e2",
+                        "type": "match"
+                    },
+                    {
+                        "id": "69bf73f8-51e3-4d55-a73d-bbcc34ae0f0d",
+                        "type": "match"
+                    },
+                    {
+                        "id": "7fc2facf-338b-4a6c-8b0d-7dfc76932287",
+                        "type": "match"
+                    },
+                    {
+                        "id": "29204f54-4448-4dd4-a981-f2b83a741c21",
+                        "type": "match"
+                    }
+                ]
+            },
+            "player": {
+                "data": {
+                    "id": "account.f80823e2cd624fe8a5a0aa1899ffcc41",
+                    "type": "player"
+                }
+            },
+            "season": {
+                "data": {
+                    "id": "division.bro.official.2018-05",
+                    "type": "season"
+                }
+            }
+        },
+        "type": "playerSeason"
+    },
+    "links": {
+        "self": "https:\/\/api.playbattlegrounds.com\/shards\/pc-na\/players\/account.f80823e2cd624fe8a5a0aa1899ffcc41\/seasons\/division.bro.official.2018-05"
+    },
+    "meta": {}
+}

@@ -1,6 +1,6 @@
 import std.stdio, std.conv: to;
 import std.net.curl;
-import pubg.request, pubg.match, pubg.player;
+import pubg.request, pubg.match, pubg.player, pubg.season;
 
 
 //example: sorting players by their amount of kills in a game
@@ -31,8 +31,10 @@ import pubg.request, pubg.match, pubg.player;
 void main()
 {
 	setConfigLocation("api.conf");
-	PlayerRequest playerRequest = new PlayerRequest("pc-na");
-	Player player = playerRequest.getPlayerFromName("ReeceTheGeese");
-	writeln(player.getAttributes().getName());
-	writeln(player.getId());
+	//PlayerRequest playerRequest = new PlayerRequest("pc-na");
+	//Player player = playerRequest.getPlayerFromName("ReeceTheGeese");
+	// writeln(player.getAttributes().getName());
+	// writeln(player.getId());
+	// Player player = playerRequest.getExtendedPlayer("account.f80823e2cd624fe8a5a0aa1899ffcc41", "division.bro.official.2018-05");
+	// writeln(player.getGameModeStats("squad-fpp").getKills());
 }
