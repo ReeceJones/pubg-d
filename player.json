@@ -1,0 +1,66 @@
+{
+    "data": [
+        {
+            "attributes": {
+                "createdAt": "2018-04-15T05:21:28Z",
+                "name": "ReeceTheGeese",
+                "patchVersion": "",
+                "shardId": "pc-na",
+                "stats": null,
+                "titleId": "bluehole-pubg",
+                "updatedAt": "2018-04-15T05:21:28Z"
+            },
+            "id": "account.f80823e2cd624fe8a5a0aa1899ffcc41",
+            "links": {
+                "schema": "",
+                "self": "https:\/\/api.playbattlegrounds.com\/shards\/pc-na\/players\/account.f80823e2cd624fe8a5a0aa1899ffcc41"
+            },
+            "relationships": {
+                "assets": {
+                    "data": []
+                },
+                "matches": {
+                    "data": [
+                        {
+                            "id": "8ea7b226-9627-45d4-bf58-2d11e7831c8d",
+                            "type": "match"
+                        },
+                        {
+                            "id": "1c51dfa1-de66-4220-a8e6-12de0f68a9e2",
+                            "type": "match"
+                        },
+                        {
+                            "id": "69bf73f8-51e3-4d55-a73d-bbcc34ae0f0d",
+                            "type": "match"
+                        },
+                        {
+                            "id": "7fc2facf-338b-4a6c-8b0d-7dfc76932287",
+                            "type": "match"
+                        },
+                        {
+                            "id": "29204f54-4448-4dd4-a981-f2b83a741c21",
+                            "type": "match"
+                        },
+                        {
+                            "id": "e7fdc02f-4fab-495d-8075-7988bb0d23ef",
+                            "type": "match"
+                        },
+                        {
+                            "id": "cdd3b920-378c-4282-8dd9-f96a509409e7",
+                            "type": "match"
+                        },
+                        {
+                            "id": "40b1d5d1-c46f-4617-a2a0-f05a6ee853d4",
+                            "type": "match"
+                        }
+                    ]
+                }
+            },
+            "type": "player"
+        }
+    ],
+    "links": {
+        "self": "https:\/\/api.playbattlegrounds.com\/shards\/pc-na\/players?filter[playerNames]=ReeceTheGeese"
+    },
+    "meta": {}
+}

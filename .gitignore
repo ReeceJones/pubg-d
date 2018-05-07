@@ -1,0 +1,15 @@
+.dub
+docs.json
+__dummy.html
+docs/
+pubg-d.so
+pubg-d.dylib
+pubg-d.dll
+pubg-d.a
+pubg-d.lib
+pubg-d-test-*
+*.exe
+*.o
+*.obj
+*.lst
+api.conf
