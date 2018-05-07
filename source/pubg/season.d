@@ -28,6 +28,7 @@ private:
 
 class SeasonRequest : ObjectRequest
 {
+public:
     this(string region)
     {
         super("https://api.playbattlegrounds.com/shards/" ~ region ~ "/");

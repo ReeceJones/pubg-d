@@ -221,6 +221,7 @@ private:
 
 class PlayerRequest : ObjectRequest 
 {
+public:
     this(string region)
     {
         super("https://api.playbattlegrounds.com/shards/" ~ region ~ "/");

@@ -4,7 +4,6 @@ import std.stdio:writeln;
 import std.file: write;
 import pubg.request;
 import std.json;
-import pz.file;
 import std.conv: parse;
 
 class MatchAttributes
@@ -275,15 +274,14 @@ public:
     {
         return cast(float)this.json["attributes"]["stats"]["winPointsDelta"].floating;
     }
-    //for example
-    /*override int opCmp(Object other)
+    override int opCmp(Object other)
     {
         if (other is null || this is null)
             return 0;
         if (this.getKills() == (cast(MatchParticipant)other).getKills())
             return 0;
         return this.getKills() -(cast(MatchParticipant)other).getKills();
-    }*/
+    }
 private:
     JSONValue json;
 }
@@ -376,6 +374,10 @@ public:
         //auto data = this.json["included"];
         //writeln(this.json.toPrettyString());
         //write("test.json", this.json.toPrettyString());
+    }
+    this(JSONValue json)
+    {
+        this.json = json;
     }
     MatchData getData()
     {

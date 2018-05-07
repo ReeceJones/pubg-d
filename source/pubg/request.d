@@ -1,12 +1,10 @@
 module pubg.request;
 
 import std.net.curl;
-import pz.config;
 
-void setConfigLocation(string loc)
+void setAPIKey(string key)
 {
-    pf = new PzConfig(loc, true, false);
-    apiKey = pf.getValue!string("apiKey");
+    apiKey = key;
 }
 
 //super class for all of the requests
@@ -31,6 +29,5 @@ private:
 
 private
 {
-    PzConfig pf;
     string apiKey;
 }

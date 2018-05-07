@@ -3,13 +3,8 @@
 	"authors": [
 		"Reece Jones"
 	],
-	"dependencies": {
-		"pz-config": {
-			"version": "~master",
-			"path": "../pz-config"
-		}
-	},
 	"description": "D interface for the PUBG api.",
 	"copyright": "Copyright © 2018, Reece Jones",
-	"license": "proprietary"
+	"license": "proprietary",
+	"targetType": "library"
 }
