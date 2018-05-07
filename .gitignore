@@ -13,3 +13,4 @@ pubg-d-test-*
 *.obj
 *.lst
 api.conf
+.vs
