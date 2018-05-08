@@ -6,12 +6,6 @@ import pubg.request, pubg.match, pubg.player, pubg.season, pubg.sample;
 // {
 //  import std.stdio;
 // 	setConfigLocation("<api key>");
-// 	//PlayerRequest playerRequest = new PlayerRequest("pc-na");
-// 	//Player player = playerRequest.getPlayerFromName("ReeceTheGeese");
-// 	// writeln(player.getAttributes().getName());
-// 	// writeln(player.getId());
-// 	// Player player = playerRequest.getExtendedPlayer("account.f80823e2cd624fe8a5a0aa1899ffcc41", "division.bro.official.2018-05");
-// 	// writeln(player.getGameModeStats("squad-fpp").getKills());
 // 	SampleRequest sampleRequest = new SampleRequest("pc-na");
 // 	auto sm = sampleRequest.getRandomMatches();
 // 	MatchParticipant[] participants;
