@@ -4,7 +4,6 @@ PUBG api wrapper written in D.
 none
 ## usage
 ### installation
-Clone the repo then add like any other library to your project by adding the following code to your dub.(json/sdl) file.
 dub.json
 ```JSON
 "pubg-d": "~>0.8.0"
