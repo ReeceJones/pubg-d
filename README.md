@@ -1,7 +1,7 @@
 # pubg-d
 PUBG api wrapper written in D.
 ## dependencies
-none
+  -curl
 ## usage
 ### installation
 dub.json
