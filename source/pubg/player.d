@@ -215,6 +215,14 @@ public:
     {
         return cast(float)this.json["winPointsDelta"].floating;
     }
+    int getWins()
+    {
+        return cast(int)this.json["wins"].integer;
+    }
+    int getWins()
+    {
+        return cast(int)this.json["losses"].integer;
+    }
 private:
     JSONValue json;
 }
