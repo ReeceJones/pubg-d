@@ -219,7 +219,7 @@ public:
     {
         return cast(int)this.json["wins"].integer;
     }
-    int getWins()
+    int getLosses()
     {
         return cast(int)this.json["losses"].integer;
     }
