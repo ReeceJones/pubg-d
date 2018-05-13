@@ -121,7 +121,7 @@ public:
     }
     int getHeadshotKills()
     {
-        return cast(int)this.json["headShotKills"].integer;
+        return cast(int)this.json["headshotKills"].integer;
     }
     int getHeals()
     {
