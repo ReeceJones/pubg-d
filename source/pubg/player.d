@@ -121,7 +121,7 @@ public:
     }
     int getHeadshotKills()
     {
-        return cast(int)this.json["headShotKills"].integer;
+        return cast(int)this.json["headshotKills"].integer;
     }
     int getHeals()
     {
@@ -214,6 +214,14 @@ public:
     float getWinPointsDelta()
     {
         return cast(float)this.json["winPointsDelta"].floating;
+    }
+    int getWins()
+    {
+        return cast(int)this.json["wins"].integer;
+    }
+    int getLosses()
+    {
+        return cast(int)this.json["losses"].integer;
     }
 private:
     JSONValue json;
