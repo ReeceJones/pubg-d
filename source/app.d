@@ -5,7 +5,7 @@ import pubg.request, pubg.match, pubg.player, pubg.season, pubg.sample;
 // void main()
 // {
 //  import std.stdio;
-// 	setConfigLocation("<api key>");
+// 	setAPIKey("<api key>");
 // 	SampleRequest sampleRequest = new SampleRequest("pc-na");
 // 	auto sm = sampleRequest.getRandomMatches();
 // 	MatchParticipant[] participants;
