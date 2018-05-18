@@ -6,11 +6,11 @@ PUBG api wrapper written in D.
 ### installation
 dub.json
 ```JSON
-"pubg-d": "~>0.8.2"
+"pubg-d": "~>0.8.4"
 ```
 dub.sdl
 ```SDL
-dependency "pubg-d" version="~>0.8.2"
+dependency "pubg-d" version="~>0.8.4"
 ```
 ### setup
 To setup the api all you need to do is set the api key using `setAPIKey(<config path>)`.
